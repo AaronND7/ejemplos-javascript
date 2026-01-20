@@ -1,1 +1,7 @@
-alert("Hola mundo");
+// alert("Hola mundo");
+
+function mostrar() {
+  let numero1 = document.getElementById("numero1");
+
+  alert(numero1);
+}
