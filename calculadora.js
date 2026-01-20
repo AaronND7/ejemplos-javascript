@@ -7,5 +7,7 @@ function mostrar() {
   let resultado = document.getElementById("resultado");
   resultado = numero1 + numero2;
 
-  alert(resultado);
+  let objResultado = document.getElementById("resultado");
+  objResultado.innerHTML = resultado;
+  // alert(resultado);
 }
